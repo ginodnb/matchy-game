@@ -2,7 +2,7 @@ let cardsArray = [
     { 'name': 'CSS', 'img': 'https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d', },
     {    'name': 'HTML',    'img': 'https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg',  },
     {    'name': 'jQuery',    'img': 'https://www.thegoodypet.com/wp-content/uploads/2020/10/Black-Cat-Breeds-3-1200x910.jpg',  },
-    {    'name': 'JS',    'img': 'https://www.thesprucepets.com/thmb/QDw4vt7XXQejL2IRztKeRLow6hA=/2776x1561/smart/filters:no_upscale()/cat-talk-eyes-553942-hero-df606397b6ff47b19f3ab98589c3e2ce.jpg',  },
+    {    'name': 'JS',    'img': 'https://i.ytimg.com/vi/mZ_CDMyz374/maxresdefault.jpg',  },
     {    'name': 'Node',    'img': 'https://i.natgeofe.com/n/6490d605-b11a-4919-963e-f1e6f3c0d4b6/sumatran-tiger-thumbnail-nationalgeographic_1456276.jpg',  },
     {    'name': 'Photo Shop',    'img': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg',  },
     {    'name': 'PHP',    'img': 'https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg',  },
