@@ -63,6 +63,8 @@ let finish;
 match = () => {
     let score = document.createElement('div');
     score.classList.add('score');
+    let scoreDivs = document.querySelectorAll('.score');
+    let scoreCount = scoreDivs.length;
     let selected = document.querySelectorAll('.selected');
     
     for (i = 0; i < selected.length; i++) {
@@ -72,16 +74,23 @@ match = () => {
         
         
     };
-    if (score > 1) {
-        console.log("done")
+    if (scoreCount > 1) {
+        
+        endGame()
     }
 
 
 };
 
-// endGame = () => {
-//     if ()
-// };
+endGame = () => {
+
+    let winner = document.createElement('div');
+    winner.classList.add('winner-pic');
+    console.log("win")
+    grid.appendChild(winner);
+    // document.querySelector('winner-pic').style.display = "flex";
+};
+
 
 resetGuesses = () => {
     firstGuess = '';

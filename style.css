@@ -73,14 +73,26 @@ body {
 .score {
     height: 20px;
     width: 20px;
-    background-color: white;
+    background-color: #6589F9;
 }
 
-.score .remove-score {
+/* .score .remove-score {
     display: none !important;
-}
+} */
 
 .counter {
     height: 10px;
     width: 10px;
+}
+
+.winner-pic {
+    display: flex;
+    background-image: url("./images/trophy2.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    margin: auto;
+    
 }
